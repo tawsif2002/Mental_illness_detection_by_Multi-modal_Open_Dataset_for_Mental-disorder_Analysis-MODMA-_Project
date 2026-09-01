@@ -1,0 +1,8 @@
+streamlit
+numpy
+pandas
+scipy
+lightgbm
+vmdpy
+antropy
+joblib

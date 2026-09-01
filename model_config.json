@@ -1,0 +1,44 @@
+{
+    "model_name": "MODMA_VMD_LightGBM",
+    "feature_set": "VMD_Fusion",
+    "features": [
+        "Fp1_IMF1_SampEn",
+        "Fp1_IMF1_RMS",
+        "Fp1_IMF1_PSD",
+        "Fp1_IMF2_SampEn",
+        "Fp1_IMF2_RMS",
+        "Fp1_IMF2_PSD",
+        "Fp1_IMF3_SampEn",
+        "Fp1_IMF3_RMS",
+        "Fp1_IMF3_PSD",
+        "Fpz_IMF1_SampEn",
+        "Fpz_IMF1_RMS",
+        "Fpz_IMF1_PSD",
+        "Fpz_IMF2_SampEn",
+        "Fpz_IMF2_RMS",
+        "Fpz_IMF2_PSD",
+        "Fpz_IMF3_SampEn",
+        "Fpz_IMF3_RMS",
+        "Fpz_IMF3_PSD",
+        "Fp2_IMF1_SampEn",
+        "Fp2_IMF1_RMS",
+        "Fp2_IMF1_PSD",
+        "Fp2_IMF2_SampEn",
+        "Fp2_IMF2_RMS",
+        "Fp2_IMF2_PSD",
+        "Fp2_IMF3_SampEn",
+        "Fp2_IMF3_RMS",
+        "Fp2_IMF3_PSD"
+    ],
+    "label_mapping": {
+        "HC": 0,
+        "MDD": 1
+    },
+    "sampling_frequency": 250,
+    "channels": [
+        "Fp1",
+        "Fpz",
+        "Fp2"
+    ],
+    "selected_imfs": 3
+}
